@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Iniciar sesion</title>
+        <link rel="stylesheet" href="estilo/estilo.css">
+    </head>
+    <body>
+        <div class="formulario">
+            <h1>Iniciar sesión</h1>
+            <form action="ControladorDatos" method="POST">
+                <div class="username">
+                    <input type="text" name="usuario" required=""/><br>
+                <label>Nombre de usuario</label>
+                </div>
+                
+                <div class="username">
+                <input type="password" name="contra" required/><br>
+                <label>Contraseña</label>
+                </div>
+                
+                <input type="submit" value="Ingresar" />
+                <div class="registrar">
+                <p><a href="registro.jsp">¿No tienes cuenta? Crea una.</a><br></p>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
